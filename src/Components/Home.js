@@ -4,7 +4,7 @@ import ProjectList from './ProjectList';
 import SearchBar from './SearchBar';
 import {useHistory} from 'react-router-dom';
 
-function Home(){
+function Home() {
   const [inputValueState, setInputValue] = useState('');
   const [receivedRepo, setReceivedRepo] = useState([]);
   const [projectsArrState, setProjectsArr] = useState([]);
